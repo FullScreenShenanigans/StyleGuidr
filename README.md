@@ -84,7 +84,7 @@ The `{DistFile}` includes are necessary for all references, if you have any. Eac
 
 ### Coding Guidelines
 
-Write beautiful, consise code when possible.
+Write beautiful, concise code when possible.
 
 Your code shouldn't stray far from the structure of the other repositories. In general:
 
