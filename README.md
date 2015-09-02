@@ -151,10 +151,3 @@ That being said, it's a good idea to check a repository's issue tracker before w
   * If rejected, fix complaints.
   
   * If accepted, celebrate and brag to your friends.
-
-
-## Errata
-
-*"Dude, that's moronic. Why would you go for such a horrible design decision? Names should be clear and obvious, you're imposing artificial restrictions for no good reason..."*
-  
-&nbsp;&nbsp;&nbsp;&nbsp;*- Hayden McAfee, Project Manager, Microsoft* 
