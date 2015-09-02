@@ -141,7 +141,7 @@ Pull requests are always welcome!
 
 That being said, it's a good idea to check a repository's issue tracker before working on code for it. You never know when your idea has already been implemented or proven wrong, or should be spun off into its own repository.
 
- The general process is:
+The general process is:
 
 1. Post an issue in the repository's issue tracker.
   
