@@ -127,6 +127,13 @@ There are five types of repositories in the FullScreenShenanigans organization:
 
 * **Metadocs** - Documentation regarding the organization itself, such as this project or [Status](https://github.com/FullScreenShenanigans/Status). 
 
+Names of projects classified as Module, Core, or Utility must adhere to the following naming convention:
+* 10 letters long
+* Consist of a noun and verb
+* End in a vowel then 'r'
+* Be named as '---------r' with instances being referred to as '---------er'
+  * e.g. `StyleGuider = new StyleGuidr(...);`
+
 
 ## Submission guidelines
 
