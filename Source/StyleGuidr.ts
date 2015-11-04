@@ -17,12 +17,14 @@ module StyleGuidr {
         private bogusArray: number[];
 
         /**
-         * Mapping of String keys to numbers with absolutely no purpose.
+         * Mapping of string keys to numbers with absolutely no purpose.
          */
         private bogusObject: IBogusObject;
 
         /**
-         * @param {IStyleGuidr} settings
+         * Initializes a new instance of the StyleGuidr class.
+         * 
+         * @param settings   Settings to use for initialization.
          */
         constructor(settings: IStyleGuidrSettings) {
             if (typeof settings.bogusArray === "undefined") {
@@ -38,14 +40,14 @@ module StyleGuidr {
         */
 
         /**
-         * @return {Array} The listing of numbers with absolutely no purpose.
+         * @returns The listing of numbers with absolutely no purpose.
          */
         getBogusArray(): number[] {
             return this.bogusArray;
         }
 
         /**
-         * @return {Object} The mapping of keys to numbers with absolutely no purpose.
+         * @returns The mapping of keys to numbers with absolutely no purpose.
          */
         getBogusObject(): IBogusObject {
             return this.bogusObject;
@@ -58,7 +60,7 @@ module StyleGuidr {
         /**
          * Sets a new listing of numbers with absolutely no purpose.
          * 
-         * @param {Array} bogusArray   The new numbers to list internally.
+         * @param bogusArray   The new numbers to list internally.
          */
         setBogusArray(bogusArray: number[]): void {
             this.bogusArray = bogusArray;
@@ -67,7 +69,7 @@ module StyleGuidr {
         /**
          * Sets a new mapping of keys to numbers with absolutely no purpose.
          * 
-         * @param {Object} bogusObject   The new mapping to store internally.
+         * @param bogusObject   The new mapping to store internally.
          */
         setBogusObject(bogusObject: IBogusObject): void {
             this.bogusObject = bogusObject;
@@ -78,7 +80,7 @@ module StyleGuidr {
         */
 
         /**
-         * @return {Number} The sum of all numbers in the internal bogusArray.
+         * @returns The sum of all numbers in the internal bogusArray.
          */
         getBogusArrayTotal(): number {
             var total: number = 0,
@@ -94,7 +96,7 @@ module StyleGuidr {
         /**
          * Retrieves all the values listed in the mapping with absolutely no purpose.
          * 
-         * @return {Array} All values from the mapping, in order of key enumeration.
+         * @returns All values from the mapping, in order of key enumeration.
          */
         getBogusObjectValuesAsArray(): number[] {
             var values: number[] = [],
@@ -117,9 +119,9 @@ module StyleGuidr {
          * Creates a bogus Object from a bunch of numbers by adding all the numbers
          * as members of different letters, starting with "a".
          * 
-         * @param {Array} bogusArray   The numbers to set as values.
-         * @return {Object}   An Object whose keys are letters starting with "a"
-         *                    and whose values are the given numbers, in order.
+         * @param bogusArray   The numbers to set as values.
+         * @returns An Object whose keys are letters starting with "a" and whose 
+         *          values are the given numbers, in order.
          */
         private createBogusObjectFromArray(bogusArray: number[]): IBogusObject {
             var output: IBogusObject = {},
