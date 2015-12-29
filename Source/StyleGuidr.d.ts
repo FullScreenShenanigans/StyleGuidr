@@ -20,7 +20,7 @@ declare module StyleGuidr {
          */
         bogusObject?: IBogusObject;
     }
-    
+
     /**
      * A sample interface for showing the coding style for FullScreenShenanigans 
      * repositories.
