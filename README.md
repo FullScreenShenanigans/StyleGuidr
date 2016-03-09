@@ -5,7 +5,7 @@ A generally comprehensive template for contributing to (or creating a) FullScree
 All repositories in the FullScreenShenanigans organization adhere to a set of guidelines ranging from coding practices to file structures. 
 StyleGuidr provides a sample repository and class with definitions and tests as a clear example of these guidelines.
 
-See the [https://github.com/FullScreenShenanigans/Documentation](Documentation repository) for code documentation.
+See the [Documentation repository](https://github.com/FullScreenShenanigans/Documentation) for code documentation.
 
 
 ## Build Process
